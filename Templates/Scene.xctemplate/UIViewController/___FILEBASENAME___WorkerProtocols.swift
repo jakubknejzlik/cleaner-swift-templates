@@ -8,6 +8,6 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Worker {
+procotol ___FILEBASENAMEASIDENTIFIER___WorkerProcotol {
    
 }

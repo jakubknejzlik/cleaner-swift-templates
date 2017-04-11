@@ -19,6 +19,9 @@ enum ___FILEBASENAMEASIDENTIFIER___Configurator {
         let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
         interactor.output = presenter
 
+        // setup worker here
+        // interactor.loginWorker = ___FILEBASENAMEASIDENTIFIER___WorkerProtocol
+
         viewController.output = interactor
         viewController.router = router
     }

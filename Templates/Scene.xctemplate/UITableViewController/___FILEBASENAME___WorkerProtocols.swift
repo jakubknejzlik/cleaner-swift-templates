@@ -8,6 +8,6 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Worker {
+protocol ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
    
 }

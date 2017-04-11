@@ -14,5 +14,5 @@ protocol ___FILEBASENAMEASIDENTIFIER___Interactable {
 
 final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___Interactable {
     var output: ___FILEBASENAMEASIDENTIFIER___Presentable!
-    var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
+    var worker: ___FILEBASENAMEASIDENTIFIER___WorkerProtocol!
 }

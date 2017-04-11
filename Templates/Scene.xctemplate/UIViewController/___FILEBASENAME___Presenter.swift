@@ -13,5 +13,5 @@ protocol ___FILEBASENAMEASIDENTIFIER___Presentable {
 }
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Presentable {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___Displayable!
+    weak var output: ___FILEBASENAMEASIDENTIFIER___Displayable?
 }
