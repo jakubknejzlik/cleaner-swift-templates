@@ -9,5 +9,12 @@
 import UIKit
 
 enum ___FILEBASENAMEASIDENTIFIER___ {
-    
+  enum Something {
+      struct Request {
+      }
+      struct Response {
+      }
+      struct ViewModel {
+      }
+  }
 }
