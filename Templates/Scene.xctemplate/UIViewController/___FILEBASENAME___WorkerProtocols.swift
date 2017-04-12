@@ -10,4 +10,7 @@ import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
 
+    // MARK: - Business Logic
+
+    func doSomeWork()
 }
