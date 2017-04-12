@@ -8,10 +8,10 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Presentable {
+protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Presentable {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___Displayable?
+final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput?
 }

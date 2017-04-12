@@ -8,6 +8,6 @@
 
 import UIKit
 
-procotol ___FILEBASENAMEASIDENTIFIER___WorkerProcotol {
-   
+protocol ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
+
 }

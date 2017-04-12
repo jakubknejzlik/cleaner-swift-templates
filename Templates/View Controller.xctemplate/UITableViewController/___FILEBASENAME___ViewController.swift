@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Displayable: class {
+protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
 
 }
 
 final class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController {
-    var output: ___FILEBASENAMEASIDENTIFIER___Interactable!
+    var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
     var router: ___FILEBASENAMEASIDENTIFIER___Router!
 
     override func awakeFromNib() {
@@ -22,6 +22,6 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController 
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___Displayable {
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
 
 }

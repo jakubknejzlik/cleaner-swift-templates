@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Interactable {
+protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
 
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___Interactable {
-    var output: ___FILEBASENAMEASIDENTIFIER___Presentable!
+final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
+    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
     var worker: ___FILEBASENAMEASIDENTIFIER___WorkerProtocol!
 }
