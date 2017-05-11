@@ -29,9 +29,6 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewContro
         super.viewDidLoad()
         doSomethingOnLoad()
     }
-}
-
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
 
     // MARK: - Event handling
 
@@ -41,6 +38,9 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIF
         let request = ___FILEBASENAMEASIDENTIFIER___.Something.Request()
         output.doSomething(request: request)
     }
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
 
     // MARK: - Display logic
 
