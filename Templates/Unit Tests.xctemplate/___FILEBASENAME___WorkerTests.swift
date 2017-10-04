@@ -9,15 +9,15 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-final class ___FILEBASENAMEASIDENTIFIER___WorkerTests: XCTestCase {
-    var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
+final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
+    var worker: ___VARIABLE_sceneName___Worker!
 
     override func setUp() {
         super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___Worker()
+        setup___VARIABLE_sceneName___Worker()
     }
 
-    func setup___FILEBASENAMEASIDENTIFIER___Worker() {
-        worker = ___FILEBASENAMEASIDENTIFIER___Worker()
+    func setup___VARIABLE_sceneName___Worker() {
+        worker = ___VARIABLE_sceneName___Worker()
     }
 }

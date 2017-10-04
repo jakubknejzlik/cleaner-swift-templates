@@ -9,15 +9,15 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-final class ___FILEBASENAMEASIDENTIFIER___InteractorTests: XCTestCase {
-    var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor!
+final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
+    var interactor: ___VARIABLE_sceneName___Interactor!
 
     override func setUp() {
         super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___Interactor()
+        setup___VARIABLE_sceneName___Interactor()
     }
 
-    func setup___FILEBASENAMEASIDENTIFIER___Interactor() {
-        interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+    func setup___VARIABLE_sceneName___Interactor() {
+        interactor = ___VARIABLE_sceneName___Interactor()
     }
 }

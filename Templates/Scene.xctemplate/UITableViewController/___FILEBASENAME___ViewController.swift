@@ -8,21 +8,21 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.Something.Request)
+protocol ___VARIABLE_sceneName___ViewControllerOutput {
+    func doSomething(request: ___VARIABLE_sceneName___.Something.Request)
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerRouter {
+protocol ___VARIABLE_sceneName___ViewControllerRouter {
     func navigateToSomewhere()
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController {
-    var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
-    var router: ___FILEBASENAMEASIDENTIFIER___ViewControllerRouter!
+final class ___VARIABLE_sceneName___ViewController: UITableViewController {
+    var output: ___VARIABLE_sceneName___ViewControllerOutput!
+    var router: ___VARIABLE_sceneName___ViewControllerRouter!
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        ___FILEBASENAMEASIDENTIFIER___Configurator.configure(viewController: self)
+        ___VARIABLE_sceneName___Configurator.configure(viewController: self)
     }
 
     override func viewDidLoad() {
@@ -35,16 +35,16 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController 
     func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
 
-        let request = ___FILEBASENAMEASIDENTIFIER___.Something.Request()
+        let request = ___VARIABLE_sceneName___.Something.Request()
         output.doSomething(request: request)
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___PresenterOutput {
 
     // MARK: - Display logic
 
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.Something.ViewModel) {
+    func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel) {
         // NOTE: Display the result from the Presenter
 
         // nameTextField.text = viewModel.name
