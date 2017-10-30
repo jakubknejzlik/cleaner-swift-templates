@@ -8,21 +8,21 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
-    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___.Something.Response)
+protocol ___VARIABLE_sceneName___InteractorOutput {
+    func presentSomething(response: ___VARIABLE_sceneName___.Something.Response)
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
-    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
-    var worker: ___FILEBASENAMEASIDENTIFIER___WorkerProtocol!
+final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___ViewControllerOutput {
+    var output: ___VARIABLE_sceneName___InteractorOutput!
+    var worker: ___VARIABLE_sceneName___WorkerProtocol!
 
     // MARK: - Business logic
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.Something.Request) {
+    func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
         // NOTE: Create some Worker to do the work
         worker.doSomeWork()
 
         // NOTE: Pass the result to the Presenter
-        let response = ___FILEBASENAMEASIDENTIFIER___.Something.Response()
+        let response = ___VARIABLE_sceneName___.Something.Response()
         output.presentSomething(response: response)
     }
 }

@@ -8,8 +8,8 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___ViewControllerRouter {
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController!
+final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___ViewControllerRouter {
+    weak var viewController: ___VARIABLE_sceneName___ViewController!
 
     func navigateToSomewhere() {
 

@@ -9,18 +9,18 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewControllerTests: XCTestCase {
-    var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController!
+final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
+    var viewController: ___VARIABLE_sceneName___ViewController!
 
     override func setUp() {
         super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___ViewController()
+        setup___VARIABLE_sceneName___ViewController()
     }
 
-    func setup___FILEBASENAMEASIDENTIFIER___ViewController() {
+    func setup___VARIABLE_sceneName___ViewController() {
         let bundle = Bundle.main
-        let storyboard = UIStoryboard(name: "___FILEBASENAMEASIDENTIFIER___", bundle: bundle)
-        viewController = storyboard.instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___ViewController") as! ___FILEBASENAMEASIDENTIFIER___ViewController
+        let storyboard = UIStoryboard(name: "___VARIABLE_sceneName___", bundle: bundle)
+        viewController = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_sceneName___ViewController") as! ___VARIABLE_sceneName___ViewController
         viewController.loadView()
     }
 }

@@ -8,19 +8,19 @@
 
 import UIKit
 
-enum ___FILEBASENAMEASIDENTIFIER___Configurator {
-    static func configure(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+enum ___VARIABLE_sceneName___Configurator {
+    static func configure(viewController: ___VARIABLE_sceneName___ViewController) {
+        let router = ___VARIABLE_sceneName___Router()
         router.viewController = viewController
 
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
+        let presenter = ___VARIABLE_sceneName___Presenter()
         presenter.output = viewController
 
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
+        let interactor = ___VARIABLE_sceneName___Interactor()
         interactor.output = presenter
 
         // setup worker here
-        // interactor.loginWorker = ___FILEBASENAMEASIDENTIFIER___WorkerProtocol
+        // interactor.loginWorker = ___VARIABLE_sceneName___WorkerProtocol
 
         viewController.output = interactor
         viewController.router = router

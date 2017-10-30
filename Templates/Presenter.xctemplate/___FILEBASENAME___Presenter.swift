@@ -8,17 +8,17 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.Something.ViewModel)
+protocol ___VARIABLE_sceneName___PresenterOutput: class {
+    func displaySomething(viewModel: ___VARIABLE_sceneName___.Something.ViewModel)
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput?
+final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___InteractorOutput {
+    weak var output: ___VARIABLE_sceneName___PresenterOutput?
 
-    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___.Something.Response) {
+    func presentSomething(response: ___VARIABLE_sceneName___.Something.Response) {
         // NOTE: Format the response from the Interactor and pass the result back to the View Controller
 
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___.Something.ViewModel()
+        let viewModel = ___VARIABLE_sceneName___.Something.ViewModel()
         output?.displaySomething(viewModel: viewModel)
     }
 }

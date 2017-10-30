@@ -9,15 +9,15 @@
 @testable import ___PROJECTNAME___
 import XCTest
 
-final class ___FILEBASENAMEASIDENTIFIER___PresenterTests: XCTestCase {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter!
+final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+    var presenter: ___VARIABLE_sceneName___Presenter!
 
     override func setUp() {
         super.setUp()
-        setup___FILEBASENAMEASIDENTIFIER___Presenter()
+        setup___VARIABLE_sceneName___Presenter()
     }
 
-    func setup___FILEBASENAMEASIDENTIFIER___Presenter() {
-        presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
+    func setup___VARIABLE_sceneName___Presenter() {
+        presenter = ___VARIABLE_sceneName___Presenter()
     }
 }
